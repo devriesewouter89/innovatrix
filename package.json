@@ -1,0 +1,24 @@
+{
+  "name": "innovatrix",
+  "version": "1.0.0",
+  "description": "Innovatrix",
+  "main": "salesforce-oauth.js",
+  "scripts": {
+    "test": "start" : "nodemon salesforce-oauth.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devriesewouter89/innovatrix.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "salesforce"
+  ],
+  "author": "wouter devriese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devriesewouter89/innovatrix/issues"
+  },
+  "homepage": "https://github.com/devriesewouter89/innovatrix#readme"
+}
