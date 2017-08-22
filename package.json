@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "Innovatrix",
   "main": "salesforce-oauth.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "chalk": "^2.1.0",
+    "express": "^4.15.4",
+    "salesforce-oauth2": "^0.1.8",
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "scripts": {
     "test": "start" : "nodemon salesforce-oauth.js"
   },
