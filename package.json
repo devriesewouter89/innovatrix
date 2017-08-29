@@ -1,33 +1,28 @@
 {
-  "name": "innovatrix",
+  "name": "test_1",
   "version": "1.0.0",
-  "description": "Innovatrix",
-  "main": "salesforce-oauth.js",
+  "description": "connection with salesforce API",
+  "main": "server.js",
   "dependencies": {
     "axios": "^0.16.2",
     "chalk": "^2.1.0",
     "express": "^4.15.4",
-    "salesforce-oauth2": "^0.1.8",
+    "salesforce-oauth2": "^0.1.8"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "test": "start" : "nodemon salesforce-oauth.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devriesewouter89/innovatrix.git"
+    "test": "echo \\\"Error: no test\\\" && exit 1",
+    "start": "nodemon server.js",
+    "sales": "nodemon salesforce-oauth.js"
   },
   "keywords": [
-    "node",
-    "js",
-    "salesforce"
+    "REST",
+    "salesforce",
+    "Innovatrix",
+    "imec"
   ],
   "author": "wouter devriese",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/devriesewouter89/innovatrix/issues"
-  },
-  "homepage": "https://github.com/devriesewouter89/innovatrix#readme"
+  "license": "ISC"
 }
